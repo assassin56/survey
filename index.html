@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group">
+        <label for=name>Your Name</label>
+        <input id=name class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="gaming-platform">Pick your favorite gaming platform</label>
+        <select class="form-control" id="gaming-platform">
+          <option>PC</option>
+          <option>Playstation</option>
+          <option>Xbox</option>
+          <option>Switch</option>
+        </select>
+      </div>
+
+      <label for="pick-one">Which of these would you rather do?</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="activity" value="hiking" checked>
+          Hiking
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="activity" value="beach" checked>
+          Going to the beach
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="activity" value="games" checked>
+          Playing Videogames
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="born">Date of birth</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+
+      <div class="form-group">
+        <label for=color>What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+
+      <div id="output">
+        <ul>
+          
+        </ul>
+      </div>
+
+    </div> 
+  </body>
+</html>
